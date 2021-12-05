@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(196, 192, 192);
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  background-color: lightcyan;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.proPic {
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.head-bio {
+  float: left;
+  padding: 30px;
+}
+.head-bio h3 {
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(2, 138, 138);
+}
+.contact-links {
+  float: right;
+  color: rgb(2, 138, 138);
+  padding: 30px;
+}
+.contact-links p a {
+  color: rgb(2, 138, 138);
+  text-decoration: none;
+}
+.contact-links p a:hover {
+  color: rgb(11, 199, 111);
+}
+.clr {
+  clear: both;
+}
+hr {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px auto;
+}
+.content {
+  margin: 30px;
+}
+.left-div {
+  float: left;
+  width: 30%;
+}
+.right-div {
+  float: right;
+  width: 70%;
+}
+.cmnhr {
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px auto;
+}
+.r1 {
+  width: 35%;
+  float: left;
+}
+.r2 {
+  width: 35%;
+  float: right;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+footer a:hover {
+  color: coral;
+}
+footer p {
+  padding: 20px;
+}
